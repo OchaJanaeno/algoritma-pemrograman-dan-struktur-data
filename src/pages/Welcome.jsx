@@ -9,7 +9,7 @@ function Welcome() {
       <div className="bubble bubble3"></div>
       <div className="content">
         <h1 className="title">Selamat Datang</h1><br></br>
-        <p className="subtitle">Pilih destinasi kalian!</p>
+        <p className="subtitle">Kami dari kelompok 9 kelas T2A</p>
         <nav className="navbar">
           <Link to="/ocha" className="nav-btn">Ocha</Link>
           <Link to="/fauzan" className="nav-btn">Fauzan</Link>
