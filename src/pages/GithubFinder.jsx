@@ -11,7 +11,7 @@ export default function GithubFinder() {
   const [showToast, setShowToast] = useState(false)
   const prevOnline = useRef(null)
 
-  // ─── useEffect 1: Auto-Fetch on Type ───────────────────────────────────────
+
   useEffect(() => {
     if (!username.trim()) {
       setUser(null)
@@ -46,7 +46,7 @@ export default function GithubFinder() {
     return () => controller.abort()
   }, [username])
 
-  // ─── useEffect 2: Connectivity Monitor ─────────────────────────────────────
+  
   useEffect(() => {
     const handleOnline = () => setIsOnline(true)
     const handleOffline = () => setIsOnline(false)
@@ -65,13 +65,13 @@ export default function GithubFinder() {
     }
   }, [])
 
-  // ─── useEffect 3: Title Sync ────────────────────────────────────────────────
+  
   useEffect(() => {
     document.title = user ? `Viewing: ${user.name || user.login}` : 'GitHub Finder'
     return () => { document.title = 'GitHub Finder' }
   }, [user])
 
-  // ─── useEffect 4: Notification Timer ───────────────────────────────────────
+  
   useEffect(() => {
     if (prevOnline.current === null) {
       prevOnline.current = isOnline
