@@ -3,6 +3,7 @@ import Welcome from './pages/Welcome'
 import Ocha from './pages/Ocha'
 import Fauzan from './pages/Fauzan'
 import Huda from './pages/Huda'
+import GithubFinder from './pages/GithubFinder'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/ocha" element={<Ocha />} />
         <Route path="/fauzan" element={<Fauzan />} />
         <Route path="/huda" element={<Huda />} />
+        <Route path="/github" element={<GithubFinder />} />
       </Routes>
     </BrowserRouter>
   )
