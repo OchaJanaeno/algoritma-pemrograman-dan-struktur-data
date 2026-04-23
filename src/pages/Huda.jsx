@@ -9,7 +9,7 @@ function Huda() {
       kota="Kediri"
       jurusan="Teknologi Informasi"
       hobi="Belajar"
-      narasi="Cihuy"
+      narasi="Haloo... perkenalkan nama saya Mochamad Miftahul Huda, bisa dipanggil Idam atau Huda. Mohon doa dan restunya agar saya bisa sukses di dunia IT."
     />
   )
 }
