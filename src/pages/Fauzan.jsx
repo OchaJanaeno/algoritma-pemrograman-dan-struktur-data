@@ -5,7 +5,7 @@ function Fauzan() {
         <ProfileCard
             nama="Fauzan"
             foto="/Fauzan1.jpeg"
-            umur={15}
+            umur={19}
             kota="Purworejo"
             jurusan="Teknologi Informasi"
             hobi="Traveling"

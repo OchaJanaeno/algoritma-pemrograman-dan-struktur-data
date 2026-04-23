@@ -9,7 +9,7 @@ function ProfileCard({ nama, foto, umur, kota, jurusan, hobi, narasi }) {
       <div className="bubble bubble3"></div>
 
       <div className="profile-card">
-        <Link to="/" className="back-btn">← Home</Link>
+        <Link to="/" className="back-btn">← Back</Link>
         <div className="profile-left">
           <img src={foto} alt={nama} className="profile-foto" />
           <div className="profile-info">
